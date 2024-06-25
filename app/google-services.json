@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970764163311",
+    "firebase_url": "https://proyectokiriki.firebaseio.com",
+    "project_id": "proyectokiriki",
+    "storage_bucket": "proyectokiriki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970764163311:android:1dec75404dfbd56f",
+        "android_client_info": {
+          "package_name": "com.example.alex.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970764163311-sl7154qar6lmor5fghc1vmr5aderin4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.proyecto",
+            "certificate_hash": "9cd7431359e492596ac10cb93af9a2507d4b9e9f"
+          }
+        },
+        {
+          "client_id": "970764163311-gn1vvdh6csjs0qn3o6q65gml8r0sttno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWF-lLJGTp6i-hRIadiNdEhXk7dZ5JXGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970764163311-gn1vvdh6csjs0qn3o6q65gml8r0sttno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

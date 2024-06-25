@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/tituloCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="138dp"
+        android:text="Correo:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tituloTipoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloCorreo"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="242dp"
+        android:text="Tipo usuario:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/CorreoUsuario"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tituloCorreo"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_toEndOf="@+id/tituloCorreo"
+        android:layout_toRightOf="@+id/tituloCorreo"
+        android:text="CORREO" />
+
+    <EditText
+        android:id="@+id/TipoUsuario"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tituloTipoUsuario"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_toEndOf="@+id/tituloTipoUsuario"
+        android:layout_toRightOf="@+id/tituloTipoUsuario"
+        android:text="TIPO" />
+
+    <TextView
+        android:id="@+id/TituloDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="19dp"
+        android:text="Datos del usuario."
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botonEditarUsuario"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:layout_marginBottom="31dp"
+        app:backgroundTint="@color/colorNaranja"
+        android:text="Modificar"
+        android:textColor="@color/colorBlanco" />
+
+    <Button
+        android:id="@+id/botonEliminarUsuario"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@color/colorNaranja"
+        android:text="Eliminar"
+        android:textColor="@color/colorBlanco" />
+
+</RelativeLayout>

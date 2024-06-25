@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="251dp"
+        android:layout_alignBottom="@+id/textBienvenida"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dice" />
+
+    <TextView
+        android:id="@+id/textVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:text="Version 2"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textVersion"
+        android:text="Autor: Alejandro Moreno Caro"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21dp" />
+
+    <TextView
+        android:id="@+id/textBienvenida"
+        android:layout_width="264dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:fontFamily="@font/leaguespartan"
+        android:text="¡Bienvenido al famoso juego de dados Kiriki en su versión móvil!"
+        android:textSize="18sp"
+/>
+
+
+</RelativeLayout>

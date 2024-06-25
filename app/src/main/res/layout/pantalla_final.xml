@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+    <Button
+        android:id="@+id/botonRegistraGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="Registrar ganador"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/botonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:text="Volver al inicio"
+        app:backgroundTint="@color/colorNaranja"
+        android:textColor="@color/colorBlanco"/>
+
+
+    <ImageView
+        android:id="@+id/imagenGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="272dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/campeon"
+        />
+
+    <TextView
+        android:id="@+id/NombreGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:keepScreenOn="true"
+        android:text="TextView"
+        />
+</RelativeLayout>

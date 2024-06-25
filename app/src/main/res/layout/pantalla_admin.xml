@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/botonRegistrarUsuario"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorNaranja"
+        android:text="Crear usuario."
+        android:textColor="@color/colorBlanco" />
+
+    <Button
+        android:id="@+id/botonListarUsuario"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonRegistrarUsuario"
+        android:layout_alignLeft="@+id/botonRegistrarUsuario"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="200dp"
+        app:backgroundTint="@color/colorNaranja"
+        android:text="Listado usuarios."
+        android:textColor="@color/colorBlanco" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="369dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="PANEL DE ADMINISTRACIÓN"
+        android:textColor="@color/colorNaranja"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
